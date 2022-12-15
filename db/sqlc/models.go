@@ -13,7 +13,7 @@ type Account struct {
 	Owner        string       `json:"owner"`
 	MerchantName string       `json:"merchantName"`
 	Balance      int64        `json:"balance"`
-	Currency     int64        `json:"currency"`
+	Currency     string       `json:"currency"`
 	CreatedAt    sql.NullTime `json:"createdAt"`
 }
 
